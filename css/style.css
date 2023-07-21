@@ -1,0 +1,16 @@
+.container{
+    background-color: #073443;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 4rem;;
+}
