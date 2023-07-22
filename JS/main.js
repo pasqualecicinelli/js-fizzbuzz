@@ -2,6 +2,8 @@
 // Creare un ciclo for che stampa in console i numeri da 1 a 100
 
 const containerElement = document.getElementById("cont");
+const colElement = document.getElementById("col-card");
+
 
 
 
@@ -12,7 +14,7 @@ for (let i = 1; i <= 100; i++) {
     // per i numeri che sono sia multipli di "i" (contatore del ciclo) % 3 = 0 and "i" % 5 = 0 allora stampi "FizzBuzz"
 
     const cardElement = document.createElement('div');
-    cardElement.classList.add('card')
+    cardElement.classList.add('card');
     let writeInside;
 
     if ((i % 3 == 0) && (i % 5 == 0)) {
@@ -50,7 +52,7 @@ for (let i = 1; i <= 100; i++) {
     }
 
     cardElement.innerHTML = writeInside;
-    containerElement.append(cardElement);
+    colElement.append(cardElement);
 }
 
 
